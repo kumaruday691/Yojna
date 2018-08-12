@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="15dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Congratulations \non registering with me"
+            android:textColor="@color/textcolor"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            android:typeface="sans" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="Now that the paper work iscomplete Let me get to my job and and work for you"
+            android:textColor="@color/textcolor"
+            android:textSize="12dp"
+            android:textStyle="normal"
+            android:typeface="sans" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="Let me show what i can do"
+            android:textColor="@color/textcolor"
+            android:textSize="12dp"
+            android:textStyle="normal"
+            android:typeface="sans" />
+
+        <Button
+            android:id="@+id/buttonok"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="OK"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="normal"
+            android:typeface="sans" />
+    </LinearLayout>
+
+</LinearLayout>

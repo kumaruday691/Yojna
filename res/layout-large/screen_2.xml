@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color3"
+    android:orientation="vertical"
+    android:padding="50dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="30dp" >
+<Button
+        android:id="@+id/buttoncontinue"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center|right"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonbox"
+        android:drawablePadding="5dp"
+        android:drawableRight="@drawable/right_arrow_left_black"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="Next"
+        android:textColor="@color/textcolor"
+        android:textSize="15dp"
+        android:textStyle="normal"
+        android:typeface="sans" />
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:src="@drawable/s3" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center|top"
+            android:text="Talk to Yojana and let her do the work for you, you can ask the arrange a meeting, process your texts and mails to add a schedule, Ex : Arrange a meeting &apos;Annual day&apos; on this Sunday."
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="1dp"
+                android:src="@drawable/dot1" />
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="2dp"
+                android:gravity="center"
+                android:padding="1dp"
+                android:src="@drawable/dot2" />
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="2dp"
+                android:gravity="center"
+                android:padding="1dp"
+                android:src="@drawable/dot1" />
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="2dp"
+                android:gravity="center"
+                android:padding="1dp"
+                android:src="@drawable/dot1" />
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="2dp"
+                android:gravity="center"
+                android:padding="1dp"
+                android:src="@drawable/dot1" />
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="2dp"
+                android:gravity="center"
+                android:padding="1dp"
+                android:src="@drawable/dot1" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.isha.yojna.FirstScreen" >
+
+    <item
+        android:id="@+id/action_right"
+        android:icon="@drawable/abc_ic_menu_moreoverflow_normal_holo_dark"
+        android:showAsAction="always"
+        android:title=""/>
+
+</menu>

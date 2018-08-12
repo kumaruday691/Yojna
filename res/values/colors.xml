@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="color1" type="color">#F08753</item>
+    <item name="color2" type="color">#8DC63F</item>
+    <item name="color3" type="color">#FF4444</item>
+    <item name="color4" type="color">#AA66CC</item>
+    <item name="color5" type="color">#0099CC</item>
+    <item name="color6" type="color">#3CB878</item>
+    <item name="textcolor" type="color">#929292</item>
+    <item name="white" type="color">#FFFFFF</item>
+
+    <integer-array name="colors">
+        <item>@color/color1</item>
+        <item>@color/color2</item>
+        <item>@color/color3</item>
+        <item>@color/color4</item>
+        <item>@color/color5</item>
+        <item>@color/color6</item>
+        <item>@color/textcolor</item>
+        <item>@color/white</item>
+    </integer-array>
+
+</resources>
